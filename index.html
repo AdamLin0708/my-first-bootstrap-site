@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Welcome to Myra's Site!! (bootstrap version)</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="fix-background">
+
+        <!-- 導覽列 -->
+        <nav class="my-nav navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Adam</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a class="btn" href="#about" role="button">Who am I</a></li>
+                <li><a class="btn" href="#my-work" role="button">My work</a></li>
+                <li><a class="btn" href="#contact-me" role="button">Contact me</a></li>
+              </ul>
+            </div>
+          </div>  
+        </nav>
+
+        <!-- Who am I -->
+    
+        <div class="container-fluid row">
+          <div class="col-md-offset-5 col-md-6 container-fluid bg-opacity" id="about">
+            <div class="container-fluid" id="my-info">
+              <h1>Hi I am Adam</h1>
+              <h3>I am a Full-stack Engineer</h3>
+              <hr/>
+              <div class="container-fluid row">
+                <div class="col-md-3">
+                  <strong>Birth</strong>
+                </div>
+                <div class="col-md-9">
+                  <p>1994</p>
+                </div>
+                <div class="col-md-3">
+                  <strong>工作經驗</strong>
+                </div>
+                <div class="col-md-9">
+                  <p> > 1 年，電子商務、網站開發、創業</p>
+                </div>
+                <div class="col-md-3">
+                  <strong>學歷</strong>
+                </div>
+                <div class="col-md-9">
+                  <p>台灣大學資訊工程學系</p>
+                </div>
+                <div class="col-md-3">
+                  <strong>開發技能</strong>
+                </div>
+                <div class="col-md-9">
+                  <p>HTML, CSS, JavaScript, Ruby on Rails, MySQL, Laravel, Bootstrap, Ionic, AngularJs, jQuery, Ajax</p>
+                </div>
+                <div class="col-md-3">
+                  <strong>學習經歷</strong>
+                </div>
+                <div class="col-md-9">
+                  <p>大航道計劃結業, 2018<br>ALPHA 大學結業, 2017</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- My Work -->
+        <div class="container-fluid row bg-white bg-padding" id="my-work">
+          <div class="col-md-12 text-center container-padding" id="my-work-title">
+            <h2>These are my works</h2>
+          </div>        
+          <div class="col-md-12 row">
+            <div class="col-md-4 col-xs-4">
+              <div class="container-fluid item">
+                <img class="img-responsive" src="img/medium.png" width="100%">
+                <div class="item-info">                
+                  <h3>亞當Talks</h3>
+                  <p>這是我的Blog<br>關於亞當的點點滴滴<br>一起成為全端網路開發者吧</p>                
+                </div>
+              </div>                                    
+            </div>
+            <div class="col-md-4 col-xs-4">
+              <div class="container-fluid">
+                <img class="img-responsive img-circle" src="img/my-photo2.jpg" width="100%">
+              </div>
+            </div>
+            <div class="col-md-4 col-xs-4">
+              <div class="container-fluid item">
+                <img class="img-responsive" src="img/github.png" width="100%">
+                <div class="item-info">                
+                  <h3>我的Github</h3>
+                  <p>還沒有很多作品<br>但身為工程師<br>有一個Github是再正常不過的了</p>            
+                </div>
+              </div>                                    
+            </div> 
+          </div>
+        </div>
+    
+    
+        <!-- Contact me -->
+        <div class="container-fluid" id="contact-me">
+          <div class="container-fluid bg-opacity bg-margin">
+            <div class="text-center container-fluid">
+              <h1>Contact Me</h1>
+            </div>        
+            <div class="container-fluid">
+              <form action="" class="form-horizontal">
+                <div class="form-group">
+                  <label for="name" class="col-md-2 text-center">姓名</label>
+                  <div class="col-md-10">
+                    <input id="name" name="name" type="text" class="form-control" placeholder="Enter Name">
+                  </div>                  
+                </div>
+                <div class="form-group">
+                  <label for="Email" class="col-md-2 text-center">Email</label>
+                  <div class="col-md-10">
+                    <input id="email" name="email" type="email" class="form-control" placeholder="Enter Email">
+                  </div>                  
+                </div>
+                <div class="form-group">
+                  <label for="message" class="col-md-2 text-center">留言</label>
+                  <div class="col-md-10">
+                    <textarea id="message" name="message" type="textarea" class="form-control" placeholder="Leave message"></textarea> 
+                  </div>                  
+                </div>
+                <div class="form-group text-center">
+                  <button type="reset" class="btn btn-danger">重設</button>
+                  <button type="sumbit" class="btn btn-default">提交</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div> 
+    </div>
+
+    
+    
+    
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
